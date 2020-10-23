@@ -6,15 +6,17 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'make'
+        sh 'pwd'
       }
     }
     stage('Test') {
       steps {
+        sh 'echo'
       }
     }
     stage('Deploy') {
       steps {
+        sh 'echo'
       }
     }
   }
